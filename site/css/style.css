@@ -1,7 +1,7 @@
 body {
   background-color: gray;
-  margin: 0 px;
-  padding: 0 px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -32,6 +32,7 @@ header {
 .schedule {
   border: 2px solid;
   height: 670px;
+  width: 100%;
 }
 
 .topics {
@@ -64,7 +65,7 @@ header {
 }
 
 #imgbox {
-  top: 320px;
+  top: 280px;
 }
 
 @media screen and (max-width: 768px) {
