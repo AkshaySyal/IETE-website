@@ -1,0 +1,88 @@
+body {
+  background-color: gray;
+  margin: 0 px;
+  padding: 0 px;
+}
+
+header {
+  border: 2px solid;
+  height: 70px;
+}
+
+.banner {
+  border: 2px solid;
+  height: 745px;
+}
+
+.box {
+  border: 2px solid;
+  height: 555px;
+}
+
+.bigpic {
+  border: 2px solid;
+  height: 1000px;
+}
+
+.someinfo {
+  border: 2px solid;
+  height: 500px;
+}
+
+.schedule {
+  border: 2px solid;
+  height: 670px;
+}
+
+.topics {
+  border: 2px solid;
+  height: 670px;
+}
+
+.info3 {
+  border: 2px solid;
+  height: 300px;
+}
+
+.instructions {
+  border: 2px solid;
+  height: 800px;
+}
+
+.comm {
+  border: 2px solid;
+  height: 800px;
+}
+
+.footer {
+  border: 2px solid;
+  height: 700px;
+}
+
+.navbar2 {
+  display: none;
+}
+
+#imgbox {
+  top: 320px;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    border: 2px solid;
+    height: 300px;
+  }
+}
+
+#navbar1 {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  #navbar1 {
+    display: none;
+  }
+  #navbar2 {
+    display: flex;
+  }
+}

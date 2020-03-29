@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="banner" id="h">
+      <div class="row">
+        <div
+          class="col d-flex justify-content-center align-items-center"
+          id="imgbox"
+        >
+          <img
+            src="images/synergylogo.png"
+            alt="synergylogo"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <nav
+          class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"
+          id="navbar1"
+        >
+          <a class="navbar-brand" href="#h">
+            <img src="images/ietelogo.png" alt="Logo" style="width:40px;" />
+          </a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#h">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#infobox">Info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#s">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#t">Topics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sy">Syllabus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#comm">Committee</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <nav
+      class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top"
+      id="navbar2"
+    >
+      <!-- Brand -->
+      <a class="navbar-brand" href="#h">
+        <img src="images/ietelogo.png" alt="Logo" style="width:40px;" />
+      </a>
+
+      <!-- Toggler/collapsibe Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#h">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#infobox">Info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#s">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#t">Topics</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#sy">Syllabus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comm">Committee</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid info1" id="infobox">
+      <div class="row">
+        <div class="col-md-4 box">A</div>
+        <div class="col-md-4 box">B</div>
+        <div class="col-md-4 box">C</div>
+      </div>
+    </div>
+
+    <div class="info2 container-fluid">
+      <div class="row">
+        <div class="col-md-6 bigpic">BIG PIC</div>
+        <div class="col-md-6 someinfo">SOME INFO</div>
+      </div>
+    </div>
+
+    <div class="schedule" id="s">
+      <div class="row">
+        <div class="col"><h1>schedule</h1></div>
+      </div>
+    </div>
+
+    <div class="topics" id="t">
+      <div class="row">
+        <div class="col">Topics</div>
+      </div>
+    </div>
+
+    <div class="topics" id="sy">
+      <div class="row">
+        <div class="col">Syllabus</div>
+      </div>
+    </div>
+
+    <div class="info3" id="infobox3">
+      <div class="row">
+        <div class="col">Info3</div>
+      </div>
+    </div>
+
+    <div class="instructions" id="ins">
+      <div class="row">
+        <div class="col">Instructions</div>
+      </div>
+    </div>
+
+    <div class="comm" id="comm">
+      <div class="row">
+        <div class="col">Committee</div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="col">Footer</div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+    <script>
+      VANTA.WAVES({
+        el: "#h",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0
+      });
+    </script>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
