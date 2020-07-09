@@ -1,0 +1,551 @@
+body {
+  background-color: #000000;
+  font-family: "Nunito";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat";
+}
+
+/* title and navbar */
+
+#access,
+#denied {
+  display: inline-block;
+}
+
+#denied {
+  color: red;
+}
+
+#access {
+  color: white;
+}
+
+.title {
+  padding: 1% 10% 7%;
+}
+
+h1 {
+  text-align: left;
+}
+
+.bg-dark {
+  background: transparent !important;
+  transition: 0.75s ease;
+}
+.bg-dark.scrolled {
+  background: #000 !important;
+}
+
+.dark {
+  background-color: transparent !important;
+}
+
+.navbar {
+  padding: 1% 10% 1%;
+
+  z-index: 5;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+nav .navbar-nav li a {
+  color: #eeeeee !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.MainTxt {
+  color: #eeeeee;
+  padding: 1% 10% 1%;
+}
+
+.title-image-container {
+  justify-content: center; /* align flex items horizontally (in this case) */
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 0%;
+}
+
+.title-image {
+  width: 75%;
+  text-align: center;
+}
+
+.dummy {
+  padding: 0;
+}
+
+.btnspc {
+  margin-bottom: 50px;
+  color: #eeeeee;
+  background-color: #292929;
+}
+
+.main-title {
+  padding: 2%;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
+
+/* About Us */
+
+#abtUs {
+  padding: 4% 10% 7%;
+  background-color: #292929;
+}
+
+h1 {
+  text-align: center;
+  line-height: 3.5;
+  color: #121212;
+}
+
+.abtimg {
+  text-align: center;
+  padding: 80px 50px;
+  background-color: #e5e5ee;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.abttext {
+  background-color: #121212;
+  color: #dbe2ef;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  padding: 3%;
+  width: 100%;
+}
+
+.accessdenied.abtimg {
+  text-align: center;
+  padding: 40px 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Tracks */
+
+#tracks {
+  background-color: #000000;
+  padding: 4% 10% 7%;
+}
+
+.tracks-title-1 {
+  text-align: center;
+  display: inline;
+  color: #e5e5ee;
+  padding: 0% 1% 5%;
+}
+
+.tracks-title-2 {
+  text-align: center;
+  display: inline;
+  color: #e5e5ee;
+  padding: 5% 1% 5%;
+  font-size: 2.5rem;
+}
+
+.tracks-box {
+  text-align: center;
+  background-color: #121212;
+  color: #e5e5ee;
+  padding: 4%;
+  font-size: 2rem;
+}
+
+.tracks-box:hover {
+  text-align: center;
+  background-color: #292929;
+  color: #28a745;
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+.tracks-image {
+  width: 100%;
+  text-align: center;
+
+  left: 15%;
+}
+
+/* Itinerary */
+#itinerary {
+  color: #e5e5ee;
+  background-color: #292929;
+  padding: 4% 10% 7%;
+}
+
+.date {
+  text-align: left;
+}
+
+.event {
+  text-align: left;
+  color: #28a745;
+}
+
+.item {
+  padding: 2%;
+}
+
+/* Frequently Asked Questions */
+
+#faq {
+  padding: 4% 10% 0%;
+}
+
+.small-faq {
+  display: none;
+}
+
+summary {
+  background-color: #292929;
+  padding: 1%;
+  color: #28a745;
+  border-radius: 0.45rem;
+  display: list-item;
+}
+
+details {
+  padding: 2%;
+
+  color: #e5e5ee;
+}
+
+details[open] {
+  padding: 2%;
+  background-color: #292929;
+  color: #e5e5ee;
+  border-radius: 0.45rem;
+}
+
+/* Judges */
+
+#judges {
+  padding: 1% 10% 7%;
+}
+
+.judges-styles {
+  color: #e5e5ee;
+  text-align: justify;
+}
+
+/* Sponsors */
+
+#sponsors {
+  background-color: #141414;
+  padding: 4% 10% 7%;
+}
+
+.sponsors-box {
+  text-align: center;
+  background-color: #141414;
+  color: #e5e5ee;
+  padding: 3% 3% 0% 3%;
+}
+
+.sponsor-image {
+  width: 100%;
+  text-align: center;
+
+  left: 15%;
+}
+
+.title-sponsor-image {
+  width: 60%;
+  text-align: center;
+
+  left: 15%;
+}
+
+.sponsor-image-small {
+  width: 80%;
+  text-align: center;
+
+  left: 15%;
+}
+
+.title-sponsors-box {
+  text-align: center;
+  background-color: #141414;
+  color: #e5e5ee;
+  padding: 0% 3% 0% 3%;
+}
+
+/* Prizes */
+
+#prizes {
+  padding: 4% 10% 4%;
+  color: #e5e5ee;
+}
+
+#prizes .btn {
+  border-width: 0.2rem;
+}
+
+.prize-style {
+  justify-content: center; /* align flex items horizontally (in this case) */
+  align-items: center;
+  align-content: center;
+}
+
+.prize-style-button {
+  justify-content: center; /* align flex items horizontally (in this case) */
+  align-items: center;
+  align-content: center;
+  text-align: right;
+}
+
+#prizes .btn:hover {
+  border-width: 0.2rem;
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #e5e5ee;
+}
+
+/* Contact Us */
+
+#contactUs {
+  padding: 0% 10% 4%;
+}
+
+.icons {
+  color: #28a745;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 2;
+  padding: 0% 3% 3% 3%;
+}
+
+.border-style {
+  border-color: #e5e5ee;
+  border-width: 1px;
+  border-right-style: solid;
+}
+
+.icon-heading {
+  color: #e5e5ee;
+  text-align: center;
+  padding: 1%;
+}
+
+.icon-des {
+  color: #e5e5ee;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1%;
+}
+
+.form-btn {
+  background-color: #28a745;
+  border-radius: 0.25em;
+  text-align: center;
+  color: #e5e5ee;
+}
+
+.btn-holder {
+  text-align: center;
+  padding: 1% 0% 2% 0%;
+}
+
+.form-btn:hover {
+  background-color: #259740;
+  border-radius: 0.25em;
+  text-align: center;
+  color: #e5e5ee;
+}
+
+.CUicons {
+  padding: 0% 0% 2% 0%;
+}
+
+footer {
+  padding: 0% 10% 6%;
+}
+
+.git-icons {
+  color: #e5e5ee;
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 2;
+  padding: 0% 3% 3% 3%;
+}
+
+.git-icon-heading {
+  color: #28a745;
+  text-align: center;
+  padding: 1%;
+}
+
+#namecred {
+  text-align: center;
+  font-size: 2rem;
+  color: #3282b8;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 770px) {
+  .hide {
+    display: none;
+  }
+
+  .dark {
+    background-color: #000000 !important;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .MainTxt {
+    color: #eeeeee;
+    padding: 25% 10% 3%;
+  }
+
+  .title-image {
+    width: 85%;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 1.34rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #judges h4 {
+    font-size: 1rem;
+  }
+
+  .tracks-title-1 {
+    text-align: center;
+    display: inline;
+    color: #e5e5ee;
+    padding: 0% 1% 5%;
+  }
+  .tracks-title-2 {
+    text-align: center;
+    display: inline;
+    color: #e5e5ee;
+    padding: 15% 1% 15%;
+    font-size: 2.5rem;
+  }
+
+  .date {
+    text-align: center;
+  }
+
+  .event {
+    text-align: center;
+    color: #28a745;
+    font-size: 1.5rem;
+  }
+
+  .item {
+    padding: 4%;
+  }
+
+  .small-faq {
+    display: flex;
+    justify-content: center; /* align flex items horizontally (in this case) */
+    align-items: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  #big-faq {
+    display: none;
+  }
+
+  #faq {
+    padding: 3% 10% 7%;
+  }
+
+  .title-sponsor {
+    justify-content: center; /* align flex items horizontally (in this case) */
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 10%;
+  }
+
+  .prize-style {
+    justify-content: center; /* align flex items horizontally (in this case) */
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 0% 0% 1% 0%;
+  }
+
+  .prize-style-button {
+    justify-content: center; /* align flex items horizontally (in this case) */
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+
+  .border-style {
+    border-width: 0px;
+  }
+
+  .sponsors-box {
+    text-align: center;
+    background-color: #141414;
+    color: #e5e5ee;
+    padding: 6% 6% 6% 6%;
+  }
+
+  .sponsor-image {
+    width: 70%;
+    text-align: center;
+
+    left: 15%;
+  }
+  .title-sponsor-image {
+    width: 100%;
+    text-align: center;
+
+    left: 15%;
+  }
+}
